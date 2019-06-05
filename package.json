@@ -1,0 +1,35 @@
+{
+  "name": "tortora",
+  "version": "1.0.0",
+  "description": "Torrent client for lazy people",
+  "main": "tortora.js",
+  "bin": {
+    "tortora": "cli.js"
+  },
+  "scripts": {
+    "test": "standard && tap --coverage test/**/*.test.js",
+    "lint:fix": "standard --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Eomm/tortora.git"
+  },
+  "keywords": [
+    "torrent-client",
+    "torrent",
+    "magnet"
+  ],
+  "author": "Manuel Spigolon <behemoth89@gmail.com> (https://github.com/Eomm)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Eomm/tortora/issues"
+  },
+  "homepage": "https://github.com/Eomm/tortora#readme",
+  "dependencies": {
+    "webtorrent": "^0.103.1"
+  },
+  "devDependencies": {
+    "standard": "^12.0.1",
+    "tap": "^14.2.1"
+  }
+}
